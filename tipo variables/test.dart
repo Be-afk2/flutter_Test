@@ -13,4 +13,11 @@ void main() {
 
   print('--------------');
   print('hola ${myName.toLowerCase()}');
+
+  // para hacer cualquier operacion con la variable, se puede usar el operador de interpolacion ${}
+  // ${myName.toLowerCase()}
+  // ${ 1 + 1 }
+  // ${myName.toUpperCase()}
+  // ${myName.length}
+  // ${etc}
 }
