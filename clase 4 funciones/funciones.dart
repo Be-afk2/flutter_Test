@@ -1,6 +1,8 @@
 void main() {
   print(greetEveryone());
   print(sumardosNumeros(3, 4));
+  print(saludo(name: 'Juan'));
+  print(saludo(name: 'Juan', saludo: 'buenas de las tardes,'));
 }
 
 // no dejar que dart adivine el tipo de dato que se devuelva
