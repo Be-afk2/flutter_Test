@@ -18,4 +18,6 @@ void main() {
   final numerosMayoresA5 = number.where((num) {
     return num > 5;
   });
+
+  print('numeros mayores a 5 ${numerosMayoresA5}');
 }
